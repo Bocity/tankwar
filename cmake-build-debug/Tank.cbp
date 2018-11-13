@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tank"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt5.10.0\;CMake Files\..\..\Qt5.10.0\5.10.0\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tank">
+				<Option output="/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank_autogen/include"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tank"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tank/fast">
+				<Option output="/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank_autogen/include"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/haojin/Qt5.10.0/5.10.0/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tank/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tank_autogen">
+				<Option working_dir="/Users/haojin/CLionProjects/Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tank_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haojin/CLionProjects/Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Bullet.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Bullet.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Common.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/EveryThing.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/EveryThing.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/MainWindow.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/MainWindow.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/StartMainWindow.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/StartMainWindow.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Tank.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Tank.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Wall.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/Wall.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank_autogen/mocs_compilation.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/gameMap.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/gameMap.h">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/main.cpp">
+			<Option target="Tank"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/haojin/CLionProjects/Tank/../../Qt5.10.0/5.10.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.10.0\5.10.0\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

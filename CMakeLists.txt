@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.9)
+project(Tank)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+find_package(Qt5Widgets REQUIRED)
+set(RCC_FILES Tank.qrc)
+add_executable(Tank main.cpp Bullet.cpp Bullet.h Tank.cpp Tank.h gameMap.cpp gameMap.h Common.h MainWindow.cpp MainWindow.h EveryThing.cpp EveryThing.h StartMainWindow.cpp StartMainWindow.h Wall.cpp Wall.h)
+target_link_libraries(Tank Qt5::Widgets)

@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "/Users/haojin/CLionProjects/Tank/cmake-build-debug/")
+set(AM_CMAKE_SOURCE_DIR "/Users/haojin/CLionProjects/Tank/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/Users/haojin/CLionProjects/Tank/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/Users/haojin/CLionProjects/Tank/cmake-build-debug/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank_autogen")
+set(AM_SOURCES "/Users/haojin/CLionProjects/Tank/main.cpp;/Users/haojin/CLionProjects/Tank/Bullet.cpp;/Users/haojin/CLionProjects/Tank/Tank.cpp;/Users/haojin/CLionProjects/Tank/gameMap.cpp;/Users/haojin/CLionProjects/Tank/MainWindow.cpp;/Users/haojin/CLionProjects/Tank/EveryThing.cpp;/Users/haojin/CLionProjects/Tank/StartMainWindow.cpp;/Users/haojin/CLionProjects/Tank/Wall.cpp")
+set(AM_HEADERS "/Users/haojin/CLionProjects/Tank/Bullet.h;/Users/haojin/CLionProjects/Tank/Tank.h;/Users/haojin/CLionProjects/Tank/gameMap.h;/Users/haojin/CLionProjects/Tank/Common.h;/Users/haojin/CLionProjects/Tank/MainWindow.h;/Users/haojin/CLionProjects/Tank/EveryThing.h;/Users/haojin/CLionProjects/Tank/StartMainWindow.h;/Users/haojin/CLionProjects/Tank/Wall.h")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "/Users/haojin/Qt5.10.0/5.10.0/clang_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/Users/haojin/Qt5.10.0/5.10.0/clang_64/bin/uic")
+set(AM_QT_RCC_EXECUTABLE )
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/Users/haojin/CLionProjects/Tank/cmake-build-debug/Tank_autogen/include;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtWidgets.framework/Headers;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtGui.framework/Headers;/System/Library/Frameworks/OpenGL.framework/Headers;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework;/Users/haojin/Qt5.10.0/5.10.0/clang_64/lib/QtCore.framework/Headers;/Users/haojin/Qt5.10.0/5.10.0/clang_64/./mkspecs/macx-clang")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "")
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES  )
+set(AM_RCC_INPUTS )
+set(AM_RCC_OPTIONS_FILES )
+set(AM_RCC_OPTIONS_OPTIONS )
